@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="./assets/css/style.css">
+    <title>Code Quiz</title>
+</head>
+<body>
+    <header>
+        <div>
+            <button class="btnHeader" id="view-high-scores">View The High Scores</button>
+        </div>
+        <div>
+            <p>Time: <span id="timeLeft">xxx</span></p>
+        </div>
+    </header>
+<!--Container for items-->
+    <div id="divMain">
+        <div id="container">
+            <p id="questions">Ready for code Quiz?</p>
+            <p id="finalScore"></p>
+            <p id="intitials"></p>
+            <textarea id="initialText"></textarea>
+            <button class="btn" id="start">StartQuiz</button>
+            <button class="btn" id="answer1"></button>
+            <button class="btn" id="answer2"></button>
+            <button class="btn" id="answer3"></button>
+            <button class="btn" id="answer4"></button>
+            <!-- Grid will know where to put the item-->
+            <button class="btn" id="submitScore"></button> 
+        </div>
+        <div id="rightOrWrong"></div>
+        <p id="rightOrWrong"></p>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
